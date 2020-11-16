@@ -31,7 +31,7 @@ class Application(ttk.Frame):
 		plt.xlabel('Time (s)')
 		plt.ylabel('V(t)')
 
-		plt.title('Plot of V(t)=V0*(1-e^(-t/tau ))')
+		plt.title('Plot of V(t)=V0*(1-e^(-t/tau ))') #exponential decay
 
 		plt.show()
 
